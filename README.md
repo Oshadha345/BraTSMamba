@@ -25,6 +25,56 @@ The core architecture leverages the efficiency of Conv3D combined with the globa
 
 ---
 
+## 📊 Results & Evaluation
+
+Our BraTSMamba model achieves state-of-the-art performance on the BraTS 2021 dataset.
+
+### 📈 Quantitative Metrics
+
+| Region | Dice Score (DSC) | HD95 (mm) |
+| :--- | :---: | :---: |
+| **Whole Tumor (WT)** | **0.909** | **6.70** |
+| **Tumor Core (TC)** | **0.884** | **5.44** |
+| **Enhancing Tumor (ET)** | **0.857** | **3.80** |
+| **Mean** | **0.883** | **-** |
+
+### 📉 Training Performance
+
+![Training Curves](Results/BraTSMamba%20Evaluation/training_curves.png)
+
+### 🖼️ Qualitative Results
+
+Visual comparison of Ground Truth vs. Model Prediction:
+
+<div align="center">
+  <img src="Results/BraTSMamba%20Evaluation/error_analysis_sample_0.png" width="45%" alt="Sample 0" />
+  <img src="Results/BraTSMamba%20Evaluation/error_analysis_sample_2.png" width="45%" alt="Sample 2" />
+</div>
+
+### 📂 Dataset Analysis
+
+Understanding the data distribution and modalities:
+
+<div align="center">
+  <img src="Results/raw_dataset_results/BraTS_all_modalities.png" width="80%" alt="Modalities" />
+</div>
+
+<div align="center">
+  <img src="Results/raw_dataset_results/class_distribution_pie.png" width="45%" alt="Class Distribution" />
+  <img src="Results/raw_dataset_results/tumor_volume_distribution.png" width="45%" alt="Volume Distribution" />
+</div>
+
+---
+
+## 📓 Detailed Reports
+
+For a deep dive into the methodology, experiments, and detailed error analysis, please refer to:
+
+*   📘 **[BioMamba Project Report](BioMamba_Report.pdf)**
+*   📓 **[Interactive Notebook](BioMamba_Notebook.ipynb)**
+
+---
+
 ## 🏆 Competition Guide
 
 For detailed guidelines and the framework of the competition, please refer to the delegate booklet:
