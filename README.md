@@ -101,5 +101,5 @@ The following research papers provide the foundational knowledge and state-of-th
 ---
 
 <div align="center">
-<sub>Built with 💻 and ☕ by the BraTSMamba Team</sub>
+<sub>Built with 💻 and ☕ by the BioMamba Team</sub>
 </div>
