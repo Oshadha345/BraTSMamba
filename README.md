@@ -1,4 +1,4 @@
-# 🧠 BraTSMamba: Segmentation of 3D Barin Tumor Volumes with 3D Mamba Blocks with Dual Conv Channels
+# 🧠 BraTSMamba: 3D Barin Tumor Segmentation with State Space Models
 
 > **System Status**: `ONLINE`  
 > **Architecture**: `BraTSMamba`  
