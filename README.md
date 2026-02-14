@@ -1,4 +1,4 @@
-# 🧠 BraTSMamba: 3D Segmentation
+# 🧠 BraTSMamba: 3D Segmentation with 3D Mamba Blocks with Dual Conv Channels
 
 > **System Status**: `ONLINE`  
 > **Architecture**: `BraTSMamba`  
