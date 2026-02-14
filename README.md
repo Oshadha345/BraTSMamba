@@ -1,4 +1,4 @@
-# 🧠 BraTSMamba: SegMamba 3D Segmentation
+# 🧠 BraTSMamba: 3D Segmentation
 
 > **System Status**: `ONLINE`  
 > **Architecture**: `BraTSMamba`  
